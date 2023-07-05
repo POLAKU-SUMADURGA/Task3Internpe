@@ -7,7 +7,7 @@ public class GuessingTheNumber
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in); 
         String play="yes"; 
-        while(play == "yes") 
+        while(play.equal("yes")) 
         { 
             Random rand=new Random(); 
             int numberToGuess=rand.nextInt(100); 
